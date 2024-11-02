@@ -5,7 +5,7 @@ import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="font-mono ">
+    <div className="font-mono bg-black">
         <div className="md:h-screen">
             <Header />
             <Home />
