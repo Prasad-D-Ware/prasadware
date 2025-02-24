@@ -8,7 +8,7 @@ const Header = () => {
         </div>*/}
                 
         <div className="py-1 px-4 border-2 hover:border-r-4 hover:border-l hover:border-t hover:border-b-4 border-white font-bold shadow-2xl hover:bg-black hover:text-white bg-white text-black ">CODING</div>
-        <div className="py-1 px-4 border-2 hover:border-r-4 hover:border-l hover:border-t hover:border-b-4 border-white font-bold shadow-2xl ">v0.0.1</div>
+        <div className="py-1 px-4 border-2 hover:border-r-4 hover:border-l hover:border-t hover:border-b-4 border-white font-bold shadow-2xl ">v0.0.2</div>
       </div>
     </div>
   );

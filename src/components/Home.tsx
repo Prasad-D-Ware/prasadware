@@ -2,9 +2,29 @@ import { VscGithubAlt } from "react-icons/vsc";
 import { RiTwitterXFill } from "react-icons/ri";
 import GitHubCalendar from "react-github-calendar";
 import { FaLink } from "react-icons/fa6";
+
+import { motion } from "motion/react";
+
 const Home = () => {
   return (
-    <div className="px-1 md:w-2/3 mx-4 md:mx-auto ">
+
+    <motion.div 
+    initial={{
+        opacity : 0,
+        filter : 'blur(10px)',
+        scale : 0.97,
+    }}
+
+    animate={{
+        opacity : 1,
+        filter : 'blur(0px)',
+        scale : 1,
+    }}
+    transition={{
+        duration : 0.5,
+        ease : "easeInOut"
+    }}
+    className="px-1 md:w-2/3 mx-4 md:mx-auto ">
         <div className="w-full border border-white "></div>
         <h2 className="font-extrabold text-2xl text-white mt-7">INIT</h2>
         <div className="md:flex justify-center items-center ">
@@ -44,7 +64,7 @@ const Home = () => {
         <div className="md:w-2/3 border-l-2 pl-5 mx-5 border-dashed border-white">
                 <div className="text-white mt-5">Will be starting soon..stay tuned</div>
         </div>
-    </div>
+    </motion.div>
   );
 };
 
