@@ -51,6 +51,7 @@ const Home = () => {
         </div>
         <h2 className="font-extrabold text-2xl mt-7 text-white">PROJECTS</h2>
         <div className="border-t border-b text-white px-5 border-white border-dashed py-3 mt-5 flex gap-4 items-center overflow-x-auto">
+                <a className="flex items-center gap-1 hover:underline" href="https://aigrading.vercel.app/" target="_blank"><FaLink />GradeAI</a>
                 <a className="flex items-center gap-1 hover:underline" href="https://www.rasta-ai.com" target="_blank"><FaLink />Rasta.Ai </a>
                 <a className="flex items-center gap-1 hover:underline" href="https://www.aiunika.com/" target="_blank"><FaLink />AiUnika </a>
                 <a className="flex items-center gap-1 hover:underline" href="https://linkmetrics.vercel.app" target="_blank"><FaLink />LinkMetrics </a>
