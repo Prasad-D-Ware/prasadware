@@ -52,11 +52,13 @@ const Home = () => {
         <h2 className="font-extrabold text-2xl mt-7 text-white">PROJECTS</h2>
         <div className="border-t border-b text-white px-5 border-white border-dashed py-3 mt-5 flex gap-4 items-center overflow-x-auto">
                 <a className="flex items-center gap-1 hover:underline" href="https://aigrading.vercel.app/" target="_blank"><FaLink />GradeAI</a>
+                <a className="flex items-center gap-1 hover:underline" href="https://solanatokendapp.vercel.app/" target="_blank"><FaLink />TokenDapp</a>
+                <a className="flex items-center gap-1 hover:underline" href="https://solana-faucet-dapp.vercel.app/" target="_blank"><FaLink />SolFaucet</a>
                 <a className="flex items-center gap-1 hover:underline" href="https://www.rasta-ai.com" target="_blank"><FaLink />Rasta.Ai </a>
                 <a className="flex items-center gap-1 hover:underline" href="https://www.aiunika.com/" target="_blank"><FaLink />AiUnika </a>
                 <a className="flex items-center gap-1 hover:underline" href="https://linkmetrics.vercel.app" target="_blank"><FaLink />LinkMetrics </a>
                 <a className="flex items-center gap-1 hover:underline" href="https://pricehawk.vercel.app/" target="_blank"><FaLink />PriceHawk </a>
-                <a className="flex items-center gap-1 hover:underline" href="https://blogging-website-self.vercel.app/" target="_blank"><FaLink />BlogHub </a>
+                {/* <a className="flex items-center gap-1 hover:underline" href="https://blogging-website-self.vercel.app/" target="_blank"><FaLink />BlogHub </a> */}
                 <div className="bg-white h-3 w-3 rounded-full "></div> 
                 <div className="bg-white h-3 w-3 rounded-full "></div> 
                 <div className="bg-white h-3 w-3 rounded-full "></div> 
