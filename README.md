@@ -30,6 +30,3 @@ This page? Just me flexing my GitHub addiction and side projects no one asked fo
 * Feels like a dark hacker terminal.
 * Version tag just because I can: `v0.0.2` — beta life forever.
 
----
-
-Want me to slap this on your portfolio directly or generate a markdown/HTML version for you?
