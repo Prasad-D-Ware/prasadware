@@ -1,51 +1,35 @@
-# React + TypeScript + Vite
+### ⚡️ PRASADWARE // v0.0.2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my lair.
 
-Currently, two official plugins are available:
+This isn’t your average dev portfolio. This is a glorified terminal façade for a sleep-deprived full-stack dev who’s allergic to UI fluff and has an unhealthy obsession with debugging at 3 AM. Built to look like a hacker's dashboard from a dystopian anime — because why not?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### 🧠 INIT:
 
-## Expanding the ESLint configuration
+Hi. I’m Prasad Ware.
+I break code, fix it, ship it, regret it, and then build something weirder.
+This page? Just me flexing my GitHub addiction and side projects no one asked for (but I still built anyway).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+#### 🔨 WORK:
 
-- Configure the top-level `parserOptions` property like this:
+* 1325+ commits: Mostly legit, some might just be me fixing typos or deleting `console.log`.
+* Consistency chart: Proof that I don’t touch grass.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+#### 🔗 PROJECTS I’VE UNLEASHED:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+* `SolScope`: Solana-powered chaos.
+* `GradeAI`: Because grading manually is a sin.
+* `TokenDapp`, `SolFaucet`, `LinkMetrics`, and others that may or may not work on first load.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+#### ✍️ BLOGS:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-# prasadware
+"Coming soon..." (just like that feature you promised your client three sprints ago)
+
+#### 🎨 Aesthetic:
+
+* Feels like a dark hacker terminal.
+* Version tag just because I can: `v0.0.2` — beta life forever.
+
+---
+
+Want me to slap this on your portfolio directly or generate a markdown/HTML version for you?
