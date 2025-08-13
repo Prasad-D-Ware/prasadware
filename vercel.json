@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/",
+      "missing": [
+        { "type": "file" }
+      ]
+    }
+  ]
+}
+
+
