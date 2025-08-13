@@ -66,7 +66,10 @@ const Home = () => {
         </div>
         <h2 className="font-extrabold text-2xl mt-7 text-white">BLOGS</h2>
         <div className="md:w-2/3 border-l-2 pl-5 mx-5 border-dashed border-white">
-                <div className="text-white mt-5">Will be starting soon..stay tuned</div>
+            <div className="text-white mt-5">
+                <a className="hover:underline" href="/blogs/rookie-understanding-of-ai">A Rookie’s Understanding of AI</a>
+                <div className="text-sm opacity-70">From Zero to "I Get it!"</div>
+            </div>
         </div>
     </motion.div>
   );
